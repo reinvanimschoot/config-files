@@ -36,4 +36,5 @@ cask 'spotify'
 cask 'sabnzbd'
 cask 'iterm2'
 cask 'adoptopenjdk8'
+cask 'android-studio'
 
