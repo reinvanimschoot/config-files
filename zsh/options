@@ -1,0 +1,17 @@
+###############
+### Options ###
+###############
+
+export VISUAL=vim
+export EDITOR=$VISUAL
+
+setopt no_beep 				    # don't beep on error
+
+setopt AUTO_CD 				    # If you type foo, and it isn't a command, and it is a directory in your cdpath, go there
+setopt CDABLEVARS 			    # if argument to cd is the name of a parameter whose value is a valid directory, it will become the current directory
+setopt PUSHD_IGNORE_DUPS 		# don't push multiple copies of the same directory onto the directory stack
+
+setopt EXTENDED_GLOB 			# treat #, ~, and ^ as part of patterns for filename generation
+
+unsetopt CORRECT 				    # spelling correction for commands
+unsetopt CORRECTALL 			    # spelling correction for arguments

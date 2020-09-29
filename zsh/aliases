@@ -1,0 +1,18 @@
+###############
+### Aliases ###
+###############
+
+alias c="cd ~/code"
+alias ls="ls -a"
+alias rm="rm -rf"
+
+alias y="yarn"
+
+alias rails="bundle exec rails"
+alias fastlane="bundle exec fastlane"
+alias rake="bundle exec rake"
+alias sidekiq="bundle exec sidekiq"
+
+alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias pg_stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+

@@ -1,0 +1,10 @@
+# Fuzzy Finder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Pure prompt
+autoload -U promptinit; promptinit
+
+PURE_GIT_DOWN_ARROW=⬇
+PURE_GIT_UP_ARROW=⬆
+
+prompt pure
